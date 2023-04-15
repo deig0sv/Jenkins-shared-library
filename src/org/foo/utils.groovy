@@ -1,6 +1,6 @@
 package org.foo
 
-def getInfoResource(Map params = [:]){
-    def request = libraryResource "${params.resourceName}"
+def getInfoResource(){
+    def request = libraryResource "projects.json"
     println "${request}"
 }
