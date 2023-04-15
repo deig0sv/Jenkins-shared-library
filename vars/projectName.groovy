@@ -1,7 +1,7 @@
 import groovy.transform.Field
-import org.foo.utils
+import org.foo.utility
 
-@Field def utils = new utils()
+@Field def utils = new utility()
 
 
 def deploy(Map params = [:]){
