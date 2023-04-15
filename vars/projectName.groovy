@@ -6,10 +6,7 @@ import org.foo.utils
 
 def deploy(Map params = [:]){
     def charact = utils.getInfoResource(
-        resourceName: "projects.json",
-        project: params.project,
-        environment: params.environment,
-        object: params.object
+        resourceName: "projects.json"
     )
     println "Desplegando Caracteristica: ${charact}"
 }
