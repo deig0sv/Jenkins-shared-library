@@ -7,5 +7,5 @@ import org.foo.utils
 def deploy(Map params = [:]){
     //def charact = utils.getInfoResource()
     //println "Desplegando Caracteristica: ${charact}"
-    println "Desplegando Caracteristica: NA"
+    println "Desplegando Caracteristica: ${params.project}"
 }
