@@ -1,5 +1,5 @@
 def info(message){
-    echo "[INFO]sss ${message}"
+    echo "[INFO] ${message}"
 }
 
 def warning(String message){
