@@ -1,0 +1,22 @@
+{
+    "projectName": {
+        "environment1": {
+            "characteristic1": "char1",
+            "characteristic2": "char2"
+        },
+        "environment2": {
+            "characteristic1": "char3",
+            "characteristic2": "char4"
+        }
+    },
+    "projectName2": {
+        "environment1": {
+            "characteristic1": "char5",
+            "characteristic2": "char6"
+        },
+        "environment2": {
+            "characteristic1": "char7",
+            "characteristic2": "char8"
+        }
+    }
+}
