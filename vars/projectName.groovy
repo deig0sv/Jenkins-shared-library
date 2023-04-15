@@ -1,12 +1,15 @@
-import org.jenkinsci.plugins.pipeline.modeldefinition.Utils
 import groovy.transform.Field
-import org.foo.utils
+import org.foo.utility
 
-@Field def utility = new utils()
+@Field def utils = new utility()
 
 
 def deploy(Map params = [:]){
-    def charact = utility.getInfoResource()
-    //println "Desplegando Caracteristica: ${charact}"
-    println "Desplegando Caracteristica: ${params.project}"
+    def charact = utils.getInfoResource(
+        resourceName: "projects.json",
+        project: params.project,
+        environment: params.environment,
+        object: params.object
+    )
+    println "Desplegando Caracteristica: ${charact}"
 }
